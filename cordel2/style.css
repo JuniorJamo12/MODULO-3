@@ -47,13 +47,29 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.41);
     color: white;
+    box-shadow: inset 6px 5px 13px 0px black;
+    background-attachment: fixed;
+
 
 }
 
 section.imagem > p {
-    display: inline-block ;
-     background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block ; 
+     background-color: rgba(0, 0, 0, 0.58);
+     text-shadow: 2px 2px 10px black ; 
      
+}
+
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 

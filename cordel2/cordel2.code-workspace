@@ -2,9 +2,12 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../projecto-cordel"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "projecto-cordel"
+		"liveServer.settings.multiRootWorkspaceName": "cordel2"
 	}
 }
