@@ -1,105 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>segunda tabela</title>
-    
-   <style>
-
-        td , th {
-            border: 1px solid black;
-            padding: 10px;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela populacao</title>
+    <style>
+        thead,tfoot{
+            background-color: darkgray;
+            color: white;
         }
 
         table{
-            width: 400px;
-            padding: 10px;
-            height: 400px;
+            width: 700px;
+            height: 700px;
             border-collapse: collapse;
+           
+        }
+        td,th{
+            border: 3px solid black;
+            font-size: 1.8em;
             text-align: center;
         }
-
-      
-        thead , tfoot{
-           background-color: darkgray;
-           color: white;
-
-    
-        }
-
-        #num{
+        td.num{
             text-align: right;
+            padding-right: 19px;
         }
-           
 
-   </style>
+        td{
+            padding: 9px;
+        }
+
+        tfoot > tr{
+            background-color: rgba(255, 0, 0, 0.411);
+            text-transform: uppercase;
+        }
+
+        th{
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 <body>
 
     <table>
         <thead>
-            <tr>
-                <th> estado</th>
-                <th> populacao</th>
-            </tr>
+            <th>estado</th>
+            <th>populacao</th>
 
         </thead>
 
         <tbody>
-
             <tr>
                 <td>sao paulo</td>
-                <td id="num">45 919 049</td>
+                <td class="num">45 919 049</td>
             </tr>
-
             <tr>
-                <td>minas gerais</td>
-                <td id="num">21 168 791</td>
-
+                <td> minas gerais</td>
+                <td class="num">21 168 791</td>
             </tr>
 
             <tr>
                 <td>rio de janeiro</td>
-                <td id="num">17 264 943</td>
+                <td class="num">17 264 943</td>
             </tr>
 
             <tr>
                 <td>baia</td>
-                <td id="num">14 873 064</td>
-            </tr>
-
-            <tr>
-                <td>ceara</td>
-                <td id="num">9 132 078</td>
+                <td class="num">14 873 064</td>
             </tr>
 
             <tr>
                 <td>goias</td>
-                <td id="num">7 018 354</td>
-            </tr>
-            <tr>
-                <td>amazonas</td>
-                <td id="num">4 144 597</td>
+                <td class="num">7 018 354</td>
             </tr>
 
+            <tr> 
+                <td>amazonas</td>
+                <td class="num">4 144 597</td>
+            </tr>
             <tr>
                 <td>paraiba</td>
-                <td id="num">4 018 127</td>
+                <td class="num">4 018 127</td>
             </tr>
+
         </tbody>
 
+
         <tfoot>
+
               <tr>
-                <td>total</td>
-                <td> <strong>1299 3019</strong></td>
+                  <td>total</td>
+                  <td class="num"> <strong>129 93019</strong></td>
               </tr>
-
         </tfoot>
-
-
-
-
     </table>
     
 </body>
