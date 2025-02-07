@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablea</title>
+    <style>
+        td{
+            border: 3px solid black;
+            padding: 6px;
+            text-align: center;
+            /* vertical-align: top; */
+            /* vertical-align:middle; */ 
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+            
+        }
+
+        tr.escolhido{
+            /* background-color: rgba(255, 0, 0, 0.375); */
+        }
+
+        td.numero{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>minha primeira tabela</h1>
+
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td >C1</td>
+        </tr>
+
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td class="numero">7</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">10</td>
+        </tr>
+
+        <tr class="escolhido">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>
