@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabela populacao</title>
+    <title>tabela zebra </title>
     <style>
         thead,tfoot{
             background-color: darkgray;
@@ -47,6 +47,15 @@
              padding-top: 29px;
              background-color: lightgray;
             
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n-1)
+        {
+            background-color: rgba(0, 255, 255, 0.129);
+            font-weight: bolder;
         }
     </style>
 </head>
