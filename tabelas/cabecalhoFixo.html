@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> cabecalho fixo </title>
+    <style>
+        thead,tfoot{
+            background-color: darkgray;
+            color: white;
+        }
+
+        table{
+            width: 700px;
+            height: 700px;
+            border-collapse: collapse;
+            margin-left: 50px;
+            position: relative;
+           
+        }
+        td,th{
+            border: 3px solid black;
+            font-size: 1.8em;
+            text-align: center;
+        }
+        td.num{
+            text-align: right;
+            padding-right: 19px;
+        }
+
+        td{
+            padding: 9px;
+        }
+
+        tfoot > tr{
+            background-color: rgba(255, 0, 0, 0.411);
+            text-transform: uppercase;
+        }
+
+        th{
+            text-transform: uppercase;
+        }
+        caption{
+             font-size: 1.4em;
+             font-weight: bolder;
+             padding-bottom: 10px;
+             text-transform: uppercase;
+             padding-top: 29px;
+             background-color: lightgray;
+            
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n-1)
+        {
+            background-color: rgba(0, 255, 255, 0.129);
+            font-weight: bolder;
+        }
+
+        thead > tr > th {
+            position: sticky ;
+            top: 0 ;
+            background-color:green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>
+              populacao das unidades federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 60px;">populacao</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td> minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
+            <tr>
+                <td>baia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+
+            <tr>
+                <td>goias</td>
+                <td class="num">7 018 354</td>
+            </tr>
+
+            <tr> 
+                <td>amazonas</td>
+                <td class="num">4 144 597</td>
+            </tr>
+            <tr>
+                <td>paraiba</td>
+                <td class="num">4 018 127</td>
+            </tr>
+
+            <tr>
+                 <td>rio grande do norte</td>
+                 <td>3 506 853</td>
+            </tr>
+
+            <tr>
+                <td> piaui</td>
+                <td>3 273 227</td>
+            </tr>
+
+            <tr>
+                <td> distrito federal</td>
+                <td>3 015 268</td>
+            </tr>
+
+            <tr>
+                <td>serigipe</td>
+                <td>2 298 696</td>
+            </tr>
+
+            <tr>
+                <td>rondonia</td>
+                <td> 1 777 225</td>
+            </tr>
+
+            <tr>
+                <td>para</td>
+                <td>8 602 865</td>
+            </tr>
+
+             <tr>
+                <td>alagoas</td>
+                <td> 3 337 357</td>
+             </tr>
+
+             <tr>
+                <td>distrito federal</td>
+                <td> 3 015 269 </td>
+
+             </tr>
+
+             <tr>
+                <td>maputo</td>
+                <td>3 419 210</td>
+             </tr>
+
+             <tr>
+                <td>tete</td>
+                <td>5 091 188</td>
+             </tr>
+
+             <tr>
+                <td>nampula</td>
+                <td> 7 001 289</td>
+             </tr>
+
+             <tr>
+                <td>inhambane</td>
+                <td>4 099 123</td>
+             </tr>
+             <tr>
+                <td>lisboa</td>
+                <td>22 090</td>
+             </tr>
+
+             <tr>
+                <td>california</td>
+                <td>9 129 321</td>
+             </tr>
+
+             <tr>
+                <td> new york</td>
+                <td>10 213 283</td>
+             </tr>
+        </tbody>
+
+
+        <tfoot>
+
+              <tr>
+                  <th>total
+                  <th class="num" scope="row"> <strong>129 93019</strong>
+              </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur mollitia ad at fugiat quaerat officiis, velit, nobis inventore nisi earum quis eligendi a nam quae hic minus repudiandae. Debitis, sit.
+        Vero nesciunt assumenda quis, fugit quibusdam provident explicabo. Praesentium eligendi neque fugiat, quam repellat totam perspiciatis suscipit eum adipisci recusandae laborum soluta perferendis, natus fugit atque quidem inventore corporis? Atque.
+        <p>Voluptate ratione dicta optio quia tempore quae repudiandae iure quibusdam impedit similique, architecto perspiciatis quisquam reiciendis velit asperiores laboriosam, beatae aspernatur blanditiis nam cumque assumenda nesciunt ab omnis veritatis? Pariatur.</p>
+        Totam eaque, similique ea officiis harum amet saepe ducimus dolore laborum! Eos velit inventore corporis! Sunt in provident exercitationem beatae magnam. Laboriosam non, voluptatem sunt aperiam maiores accusantium illum maxime.
+        <p>Dolore adipisci, quod mollitia, inventore quasi labore autem laboriosam esse vitae tenetur eaque possimus voluptas dicta libero! Et officia id debitis porro eius culpa perspiciatis. Ea ratione eligendi nostrum perspiciatis.</p>
+        Cupiditate tempore, molestiae consequuntur veniam accusamus blanditiis impedit, itaque, consectetur ad culpa dolorum accusantium modi illo et esse earum commodi voluptatibus ab ipsa. Fugit nostrum saepe veritatis, quas iusto odit.
+        Fugit repudiandae officiis eum repellendus obcaecati rerum sed eaque quisquam. Repudiandae doloremque officia dicta ea distinctio voluptatibus omnis voluptatem eos. Doloribus itaque error id aliquid ratione perferendis nemo odio expedita.
+        <p>Iure quibusdam doloremque sequi exercitationem temporibus inventore optio distinctio quos quaerat enim repellendus expedita, reprehenderit explicabo consequuntur sunt nobis blanditiis iste. Fugiat ducimus harum dolores numquam quod cum qui eaque?</p>
+        Et illo inventore vel libero. Sed nulla maiores, vel aspernatur hic unde deleniti tempore voluptatum explicabo amet? Modi iste, magni illum numquam delectus, eum ullam nisi sit vero tempora autem!
+        Officiis ipsum, est quaerat vero a molestiae in quas ratione temporibus blanditiis consequatur, dolor, fuga voluptatibus quis expedita porro ad repellendus. Vel id saepe eius blanditiis est dolores cupiditate. Voluptatum.
+        lorem*100
+    </p>
+    
+</body>
+</html>

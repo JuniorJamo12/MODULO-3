@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filmes favoritos</title>
+
+    <style>
+        table {
+            width: 700px;
+            margin: 30px;
+            border-collapse: collapse;
+            height: 300px;
+        }
+
+        td {
+            border: 3px solid black;
+            text-align: center;
+
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 23px;
+            background-color: darkgray;
+        }
+
+        caption {
+            margin-bottom: 10px;
+            background: linear-gradient(to right, rgba(255, 166, 0, 0.488), rgba(255, 0, 0, 0.534));
+        }
+
+        th {
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <caption>filmes favoritos</caption>
+        <thead>
+
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes </th>
+        </thead>
+
+        </tr>
+        <tbody>
+            <tr>
+                <td rowspan="3"><strong>mulheres</strong></td>
+                <td> Ana maria santos</td>
+                <td>alien</td>
+                <td>rambo</td>
+                <td>vingadores</td>
+            <tr>
+                <td>beatriz sousa</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batman</td>
+            </tr>
+            <tr>
+                <td>claudia melo</td>
+                <td>obvilllion</td>
+                <td> matrix</td>
+                <td>big hero</td>
+            </tr>
+            </tr>
+            <tr>
+                <td rowspan="3"><strong>Homens</strong></td>
+                <td> bruno mendoca</td>
+                <td>intocaveis</td>
+                <td>amnesia</td>
+                <td>gladiador</td>
+            </tr>
+            <tr>
+                <td>daniel lourenco</td>
+                <td>wall-e</td>
+                <td> oldboy</td>
+                <td>dangai</td>
+            </tr>
+            <tr>
+                <td>fabiano mota</td>
+                <td>star wars 5</td>
+                <td> taxi driver</td>
+                <td>toy stroy</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                 <th colspan="4">total</th>                
+                 <td>1000 </td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+</body>
+
+</html>
